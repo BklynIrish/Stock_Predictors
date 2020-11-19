@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>LSTM</title>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <!-- <link rel="stylesheet" href="./assets/style.css"> -->
+    <link rel="stylesheet" href="../static/css/style3.css"/> 
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- The header starts here -->
+        <div class="row">
+            <div class="col-md-12">
+                <nav class="navbar navbar-expand-sm navbar-light bg-light justify-content-between">
+                    <a class="navbar-brand h1 goofy_blue">
+                        <h3 >Long Short-Term Model</h3>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <form class="form-inline">
+                        <div class="collapse navbar-collapse ul_format" id="navbarNavDropdown">
+                            <ul class="navbar-nav ">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/">
+                                        Home
+                                        <i class="fas fa-newspaper"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Stocks
+                                        <i class="fas fa-chart-line"></i>
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="/CSCO">
+                                            CSCO
+                                            <i class="fas fa-sun"></i>
+                                        </a>
+                                        <a class="dropdown-item" href="/EDU">
+                                            EDU
+                                            <i class="fas fa-tint"></i>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/LSTM">
+                                        LSTM
+                                        <i class="fas fa-newspaper"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/train">
+                                       MVLR
+                                        <i class="fas fa-database"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link" href="/predict">
+                                     Predict
+                                      <i class="fas fa-database"></i>
+                                  </a>
+                              </li>
+                            </ul>
+                        </div>
+                    </form>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-1">
+              <!--Margin-->
+            </div>
+            <div class="col-10" id=main_container>
+                <br>
+                <h3>Limitations</h3>
+                <br>
+            <!--Images Here-->
+            <div class="row">
+                <div class="col-5" id=main_container>
+                    <img src="../static/images/election.jpg" class="stretch" alt="" style="width:100%;height: 210px; clip-path: rect(0px,50px,1000px,0px)">
+                </div>
+                <div class="col-2" id=main_container>
+                </div>
+                <div class="col-5" id=main_container>
+                    <img src="../static/images/covid.jpg" class="stretch" alt="" style="width:100%;height: 210px; clip-path: rect(0px,50px,1000px,0px)">
+                </div>
+              </div>
+            <!--End Images-->
+            </div>
+            <div class="col-1">
+              <!--Margin-->
+            </div>
+          </div>
+<!--Underlying  Metrics-->
+          <div class="row">
+            <div class="col-1" id="sidecolumn_left">
+              <g>
+                <br>
+                <div class="sidetext">
+                </div>
+              </g>
+            </div>
+            <div class="col-10">
+                <br>
+                <br>
+                <p>
+                    The Long Short-Term (LSTM) model is a sequential model. It learns a pattern by passing a sequence of models to different nodes
+                    and repeats the process a series of times. The underlying assumption of the Long Short-Term model is that the stock will 
+                    behave like it has in the past. This assumption can be dangerous as other variables can affect its performance.
+                    First, it does not take into account the underlying health of the company. It disregards the fundamentals which 
+                    many investors rely on. Secondly, it does not account for news that may affect the company. 
+                    For an example, Cisco Systems recently announced better than expected earnings, but the LSTM model is not 
+                    able to factor in the higher expectations, outside of a higher closing price for one particular day.
+                    In addition, major events around the country like the recent presidential election and second surge in
+                    COVID-19 cases do not have a direct affect on the model. While the LSTM misses critical aspects predicting
+                the long term performance in a stock, it is still can serves as a proxy for short term movements based on historical data.
+                </p>
+            </div>
+            <div class="col-1">
+              <br>
+              <div class="sidetext">
+               
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-1" id="sidecolumn_left">
+                  <g>
+                    <br>
+                    <div class="sidetext">
+                    </div>
+                  </g>
+                </div>
+                <div class="col-10">
+                    <br>
+                    <h3>Conclusion</h3>
+                    <br>
+                    <p>
+                    The Long-Short Term Model is a starting point in building more advanced models. Given our time
+                    constraint, we were only able to build a single-variate model. While it would still be a sequential model,
+                    model was moving in a particular way. This project has helped us understand that while 
+                    sequencial models are not able to factor in some of the key adding more underlying variables would help us further understand why the 
+                    drivers of a stock's overall movement, they are still useful in helping predicting short-term movements of a stock.
+                    In addition, we do not have a firm stance if Cisco Systems stock price will rise or fall, but we would recommend
+                    buying New Oriental Education (EDU) stock.
+                    </p>
+                </div>
+                <div class="col-1">
+                  <br>
+                  <div class="sidetext">
+                   
+                  </div>
+                </div>
+                <!--Put Break Here-->
+                <br>
+            <!--Put Break Here-->
+            <br>
+          </div> 
+    <footer class="footer">
+        <div class="container">
+            <span class="text-muted"></span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
