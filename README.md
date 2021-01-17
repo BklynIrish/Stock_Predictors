@@ -30,3 +30,8 @@ https://stock-predictor1.herokuapp.com/
   * numpy as np
   * sklearn.model_selection import train_test_split
   * matplotlib.pyplot as plt
+* Heroku
+ * gunicorn
+ * Procfile
+ * requirements.txt
+ 
