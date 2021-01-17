@@ -16,14 +16,14 @@ https://stock-predictor1.herokuapp.com/
 * HTML / JavaScript/ CSS/ Bootstrap
 * Flask
 * Plotly
-* Libraries:\n 
-* tensorflow.keras.layers import LSTM \n
-* tensorflow.keras.models import Sequential
-* tensorflow.keras.layers import Dense
-* tensorflow.keras.layers import Activation
-* tensorflow.keras.layers import Dropout
-* numpy import array
-* pandas as pd
-* numpy as np
-* sklearn.model_selection import train_test_split
-* matplotlib.pyplot as plt
+* Libraries:
+  * tensorflow.keras.layers import LSTM 
+  * tensorflow.keras.models import Sequential
+  * tensorflow.keras.layers import Dense
+  * tensorflow.keras.layers import Activation
+  * tensorflow.keras.layers import Dropout
+  * numpy import array
+  * pandas as pd
+  * numpy as np
+  * sklearn.model_selection import train_test_split
+  * matplotlib.pyplot as plt
