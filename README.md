@@ -13,8 +13,11 @@ https://github.com/BklynIrish/Stock_Predictors/blob/main/Pictures/CSCO_Future_Pr
 https://stock-predictor1.herokuapp.com/
 
 ## Tools and Resources
+* Python
+* Machine Learning
 * HTML / JavaScript/ CSS/ Bootstrap
 * Flask
+* Mongo DB
 * Plotly
 * Libraries:
   * tensorflow.keras.layers import LSTM 
