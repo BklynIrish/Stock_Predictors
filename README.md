@@ -14,7 +14,7 @@ Page created by James Cadigan, Taurean Hutchinson, Brandon McDermott and Sahr Mu
 Double-click to zoom back out
 
 Here is an example of our prediction for both stocks...
-
+https://stock-predictor1.herokuapp.com/results
 
 ## Deployed Version (as seen above)
 https://stock-predictor1.herokuapp.com/
