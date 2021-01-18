@@ -1,13 +1,20 @@
 # Stock Predictor
 Final Project Deployed using heroku at https://stock-predictor1.herokuapp.com
 
-In this project, we used machine learning models to explore the behavior of two different stocks. The stocks we chose were Cisco Systems, Inc. (CSCO) and New Oriential Education (EDU). Cisco Systems (CSCO) supplies hardware and software for networking solutions and other communication needs like mobility and sercuirty. It provides provides software and security for telemedicine platforms, 5G mobile connections, and  platforms for companies to analyze data through AI and machine learning. New Oriental Education & Technology Group (EDU) provides remote educational services to people in China. Both these companies are positioned in industries that are set to grow, but we wanted to see if we could predict their future stock prices using past prices. We used a two different types of machine learning Long Short-Term Model to predict future stock prices based. We used a Multi-variate linear regression to anaylze the impact that certain fundementals had on a stock's price. Below are some screenshots of interactive plots predicting future behavior of both of the two stocks analyzed.
+In this project, we used different applications of machine learning to explore the behavior of two stocks, Cisco Systems (CSCO) and New Oriental Education & Technology Group (EDU). Both these companies are in expanding industries and have large growth potiential for the future. However, we wanted to use machine learning in order to create models to predict their past and future behavior. We used a Long Short-Term model to try to mimic the past behavior of the stock and then forecast the stocks' movements into the future and also applied a multiple variable linear regression model to predict stock prices.
 
-EDU Future Prediction (.png file)
-https://github.com/BklynIrish/Stock_Predictors/blob/main/Models/EDU_Future_Prediction.png?raw=true
+Cisco Systems (CSCO) supplies hardware and software for networking solutions and other communication needs like mobility and security. Cisco Systems is well positioned in many growing industries. It provides provides software and security for telemedicine platforms. With the spread of Covid-19, many people are opting to see physicians via video and that trend will increase the demand for telemedicine. Cisco Systems an innovator in the wireless industry and will support 10% of 5G mobile connections by 2023. Cisco provides platforms for companies to analyze data through AI and machine learning.
 
-CSCO Future Prediction (.png file)
-https://github.com/BklynIrish/Stock_Predictors/blob/main/Pictures/CSCO_Future_Prediction%20copy.png?raw=true
+New Oriental Education & Technology Group (EDU) provides educational services to people in China. There is room for New Oriental Education & Technology Group to grow as a the vast amount of people in China live in rural areas. In addition, there will be a push for network schooling capabilities to deal with future outbreaks like Coronavirus.
+
+
+
+Page created by James Cadigan, Taurean Hutchinson, Brandon McDermott and Sahr Musa 2020
+×
+Double-click to zoom back out
+
+Here is an example of our prediction for both stocks...
+
 
 ## Deployed Version (as seen above)
 https://stock-predictor1.herokuapp.com/
